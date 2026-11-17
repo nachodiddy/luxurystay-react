@@ -1,70 +1,16 @@
-# LuxuryStay – Hotel Booking Website
+# React + Vite
 
-## Project Description
-LuxuryStay is a modern and responsive hotel booking website developed using React.js. It allows users to explore hotel rooms, view room descriptions and prices, make booking requests, and contact the hotel. The website is designed to provide visitors with a simple, convenient, and enjoyable hotel booking experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
-- Attractive homepage with hotel information.
-- About page introducing the hotel.
-- Rooms section displaying available accommodation options.
-- Interactive booking form.
-- Contact form for customer enquiries.
-- Responsive design for desktop and mobile devices.
-- Reusable React components.
-- React Router for page navigation.
-- React Hooks (useState) for managing form inputs.
-- Local storage for saving booking and contact information.
+Currently, two official plugins are available:
 
-## Technologies Used
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- React Router DOM
-- Vite
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Installation and Setup
+## React Compiler
 
-1. Clone the repository:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-   ```bash
-   git clone YOUR_GITHUB_REPOSITORY_LINK
-   ```
+## Expanding the ESLint configuration
 
-2. Navigate into the project folder:
-
-   ```bash
-   cd luxury-stay
-   ```
-
-3. Install the required dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL displayed in your terminal to view the website.
-
-## Project Structure
-
-```text
-src/
-├── components/
-├── pages/
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
-```
-
-## Important Note
-LuxuryStay is a frontend hotel booking demonstration. Booking and contact information are stored in the browser's local storage. It does not currently include a backend database or real payment processing.
-
-## Author
-Developed as a React JS Web Development Project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
